@@ -1,7 +1,7 @@
 {
     "name": "tarohida/tarohida",
     "description": "composer publish test",
-    "keywords": ["sample"],
+    "keywords": ["tarohida"],
     "type": "library",
     "license": "MIT",
     "homepage": "https://github.com/tarohida/composer_publish_lib",
