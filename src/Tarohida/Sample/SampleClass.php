@@ -6,13 +6,13 @@ class SampleClass
 {
     private $val;
 
-    private function helloWorld()
+    public function helloWorld()
     {
-        echo $this->val;
+        return $this->val;
     }
 
     public function __construct()
     {
-        $this->val = 'Hello World';
+        $this->val = 'Hello, World';
     }
 }

@@ -4,7 +4,7 @@
     "keywords": ["sample"],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/tarohida",
+    "homepage": "https://github.com/tarohida/sample",
     "authors": [
       {
         "name": "Taro Hida",
@@ -15,8 +15,8 @@
         "phpunit/phpunit": "*"
     },
     "autoload": {
-      "psr-0": {
-        "Tarohida\\Sample": "src/"
+      "psr-4": {
+        "Tarohida\\Sample\\": "src/Tarohida/Sample/"
       }
     }
 }
