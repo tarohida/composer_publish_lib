@@ -1,0 +1,22 @@
+{
+    "name": "tarohida/sample",
+    "description": "composer publish test",
+    "keywords": ["sample"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/tarohida",
+    "authors": [
+      {
+        "name": "Taro Hida",
+        "email": "sk8trou@gmail.com"
+      }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+      "psr-0": {
+        "Tarohida\\Sample": "src/"
+      }
+    }
+}

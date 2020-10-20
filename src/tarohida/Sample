@@ -1,0 +1,18 @@
+<?php
+
+namespace Tarohida\Sample;
+
+class SampleClass
+{
+    private $val;
+
+    private function helloWorld()
+    {
+        echo $this->val;
+    }
+
+    public function __construct()
+    {
+        $this->val = 'Hello World';
+    }
+}
