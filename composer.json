@@ -1,10 +1,10 @@
 {
-    "name": "tarohida/sample",
+    "name": "tarohida/tarohida",
     "description": "composer publish test",
     "keywords": ["sample"],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/tarohida/sample",
+    "homepage": "https://github.com/tarohida/composer_publish_lib",
     "authors": [
       {
         "name": "Taro Hida",
@@ -16,7 +16,7 @@
     },
     "autoload": {
       "psr-4": {
-        "Tarohida\\Sample\\": "src/Tarohida/Sample/"
+        "Tarohida\\Tarohida\\": "src/Tarohida/Tarohida/"
       }
     }
 }
